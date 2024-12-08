@@ -1,0 +1,2 @@
+v1	named	intermediary
+FIELD	d06/hearteffects/mixin/client/InGameHudMixin	Lnet/minecraft/client/MinecraftClient;	client	field_2035

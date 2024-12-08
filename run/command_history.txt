@@ -1,0 +1,20 @@
+/effect give @s minecraft:blindness
+/effect clear
+/effect give @s minecraft:blindness
+/effect clear
+/effect give @s minecraft:blindness
+/effect clear
+/effect give @s minecraft:health_boost
+/effect give @s minecraft:luck
+/effect give @s minecraft:glowing
+/effect clear
+/effect give @s minecraft:glowing
+/effect give @s minecraft:haste
+/effect give @s minecraft:raid_omen
+/effect give @s minecraft:wind_charged
+/effect give @s minecraft:weaving
+/effect give @s minecraft:jump_boost
+/effect give @s minecraft:speed
+/effect give @s minecraft:strength
+/effect clear
+/effect give @s minecraft:strength

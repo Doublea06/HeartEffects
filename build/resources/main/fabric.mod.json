@@ -1,0 +1,44 @@
+{
+	"schemaVersion": 1,
+	"id": "heart-effects",
+	"version": "1.0.0",
+	"name": "Heart Effects",
+	"description": "Changes the texture of hearts depending on the effect",
+	"authors": [
+		"Doublea06"
+	],
+	"contact": {
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/heart-effects/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"d06.hearteffects.HeartEffects"
+		],
+		"client": [
+			"d06.hearteffects.HeartEffectsClient"
+		],
+		"modmenu": [
+			"d06.hearteffects.ModMenu"
+		]
+	},
+	"mixins": [
+		"heart-effects.mixins.json",
+		{
+			"config": "heart-effects.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"owo": "*"
+	},
+	"accessWidener": "heart-effects.accesswidener"
+}
