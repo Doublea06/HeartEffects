@@ -8,9 +8,9 @@
 		"Doublea06"
 	],
 	"contact": {
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/Doublea06/HeartEffects/"
 	},
-	"license": "CC0-1.0",
+	"license": "CC-BY 4.0",
 	"icon": "assets/heart-effects/icon.png",
 	"environment": "*",
 	"entrypoints": {
